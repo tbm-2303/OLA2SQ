@@ -1,0 +1,9 @@
+﻿config:
+  target: 'http://localhost:7288' # Use the correct port of your running API
+  phases:
+    - duration: 60
+      arrivalRate: 50
+scenarios:
+  - flow:
+      - get:
+          url: "/api/ToDoTasks" # Replace with the correct API path

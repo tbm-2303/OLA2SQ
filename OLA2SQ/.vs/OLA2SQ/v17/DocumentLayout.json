@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92D1805F-FE8F-4E21-9857-C8013EFD5D46}|OLA2SQ\\OLA2SQ.csproj|c:\\users\\timmy\\assignments\\ola2sq\\ola2sq\\load-test.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92D1805F-FE8F-4E21-9857-C8013EFD5D46}|OLA2SQ\\OLA2SQ.csproj|solutionrelative:ola2sq\\load-test.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92D1805F-FE8F-4E21-9857-C8013EFD5D46}|OLA2SQ\\OLA2SQ.csproj|c:\\users\\timmy\\assignments\\ola2sq\\ola2sq\\api_tests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{92D1805F-FE8F-4E21-9857-C8013EFD5D46}|OLA2SQ\\OLA2SQ.csproj|solutionrelative:ola2sq\\api_tests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -42,6 +46,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "load-test.yml",
+              "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\load-test.yml",
+              "RelativeDocumentMoniker": "OLA2SQ\\load-test.yml",
+              "ToolTip": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\load-test.yml",
+              "RelativeToolTip": "OLA2SQ\\load-test.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-23T14:15:18.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "API_Tests.http",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\API_Tests.http",
               "RelativeDocumentMoniker": "OLA2SQ\\API_Tests.http",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TodoContext.cs",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\Models\\TodoContext.cs",
               "RelativeDocumentMoniker": "OLA2SQ\\Models\\TodoContext.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "OLA2SQ\\Models\\TodoContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:43:46.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T18:43:46.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ToDoTasksControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ.test\\ToDoTasksControllerTests.cs",
               "RelativeDocumentMoniker": "OLA2SQ.test\\ToDoTasksControllerTests.cs",
@@ -75,12 +91,11 @@
               "RelativeToolTip": "OLA2SQ.test\\ToDoTasksControllerTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:42:35.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T18:42:35.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ToDoTasksController.cs",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\Controllers\\ToDoTasksController.cs",
               "RelativeDocumentMoniker": "OLA2SQ\\Controllers\\ToDoTasksController.cs",
@@ -88,12 +103,11 @@
               "RelativeToolTip": "OLA2SQ\\Controllers\\ToDoTasksController.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAFUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:29:20.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T18:29:20.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ\\OLA2SQ\\Program.cs",
               "RelativeDocumentMoniker": "OLA2SQ\\Program.cs",
@@ -101,12 +115,11 @@
               "RelativeToolTip": "OLA2SQ\\Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAADwvyEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:16:03.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T18:16:03.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ToDoTasksControllerIntegrationTests.cs",
               "DocumentMoniker": "C:\\Users\\Timmy\\assignments\\OLA2SQ.IntegrationTests\\ToDoTasksControllerIntegrationTests.cs",
               "RelativeDocumentMoniker": "..\\OLA2SQ.IntegrationTests\\ToDoTasksControllerIntegrationTests.cs",
@@ -114,8 +127,7 @@
               "RelativeToolTip": "..\\OLA2SQ.IntegrationTests\\ToDoTasksControllerIntegrationTests.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:39:35.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T17:39:35.859Z"
             }
           ]
         }
