@@ -1,0 +1,56 @@
+﻿### GET all tasks - should return 200 OK
+GET https://localhost:5001/api/tasks
+Accept: application/json
+
+### GET task by ID - valid ID, should return 200 OK
+GET https://localhost:5001/api/tasks/1
+Accept: application/json
+
+### GET task by ID - invalid ID, should return 404 Not Found
+GET https://localhost:5001/api/tasks/999
+Accept: application/json
+
+### POST a new task - valid data, should return 201 Created
+POST https://localhost:5001/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Finish API project",
+  "isCompleted": false,
+  "dueDate": "2024-12-01"
+}
+
+### POST a new task - missing title, should return 400 Bad Request
+POST https://localhost:5001/api/tasks
+Content-Type: application/json
+
+{
+  "isCompleted": false,
+  "dueDate": "2024-12-01"
+}
+
+### PUT update task - valid update, should return 200 OK
+PUT https://localhost:5001/api/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Updated Task Title",
+  "isCompleted": true,
+  "dueDate": "2024-12-01"
+}
+
+### PUT update task - invalid ID, should return 404 Not Found
+PUT https://localhost:5001/api/tasks/999
+Content-Type: application/json
+
+{
+  "title": "Invalid Task Update",
+  "isCompleted": true,
+  "dueDate": "2024-12-01"
+}
+
+### DELETE task - valid ID, should return 204 No Content
+DELETE https://localhost:5001/api/tasks/1
+
+### DELETE task - invalid ID, should return 404 Not Found
+DELETE https://localhost:5001/api/tasks/999
